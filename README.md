@@ -8,7 +8,7 @@ NIM : 312210619
 
 Kelas : TI.22.B.2
 
-PHP
+# PHP
 
 PHP adalah singkatan dari "Hypertext Preprocessor". Ini adalah bahasa pemrograman server-side yang digunakan secara luas untuk pengembangan web. Diciptakan oleh Rasmus Lerdorf pada tahun 1994, PHP awalnya adalah singkatan dari "Personal Home Page" (sekarang disebut "PHP: Hypertext Preprocessor"), yang menggambarkan awalnya sebagai alat untuk membangun situs web pribadi.
 PHP adalah bahasa skrip yang dapat disisipkan ke dalam HTML. Ini dikenal dengan kemampuannya untuk membuat halaman web dinamis dengan menyediakan fungsi untuk berinteraksi dengan basis data, menghasilkan konten yang dapat berubah secara dinamis, dan berkomunikasi dengan server web.
@@ -28,11 +28,11 @@ Membuat Database: Studi Kasus Data Barang
 
 ![image](screenshot/2.PNG)
 
-MEMBUAT DATABASE
+# MEMBUAT DATABASE
 
 CREATE DATABASE latihan1;
 
-Membuat TABEL
+# Membuat TABEL
 
 ```py CREATE TABLE data_barang (
 id_barang int(10) auto_increment Primary Key,
@@ -52,7 +52,7 @@ INSERT INTO data_barang (kategori, nama, gambar, harga_beli, harga_jual, stok) V
 
 ![image](screenshot/4.PNG)
 
-KONEKSI DATABASE
+# KONEKSI DATABASE
 
 ```py<?php
 $host = "localhost";
@@ -68,7 +68,7 @@ die();
 ?>
 ```
 
-OUTPUT
+# OUTPUT
 
 ![image](screenshot/koneksi.php)
 
@@ -126,7 +126,7 @@ $row['nama'];?>"></td>
 </body>
 </html>
 ```
-OUTPUT
+# OUTPUT
 
 ![image](screenshot/index.php)
 
@@ -214,7 +214,7 @@ data">
 </html>
 ```
 
-OUTPUT
+# OUTPUT
 
 ![image](screenshot/tambah.php)
 
@@ -326,7 +326,7 @@ $data['id_barang'];?>" />
 </html>
 ```
 
-OUTPUT
+# OUTPUT
 
 ![image](screenshot/ubah.php)
 
